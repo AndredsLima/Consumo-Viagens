@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    >
+    <TextView
+        android:id="@+id/text_Header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="2dp"
+        android:gravity="center"
+        android:text="@string/textCabecalho"
+        android:textColor="@color/Blue"
+        android:textSize="32sp" />
+
+    <EditText
+        android:id="@+id/editDistance"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="32dp"
+        android:hint="@string/editDistance"
+        android:inputType="numberDecimal"
+
+        />
+
+    <TextView
+        android:id="@+id/totalKm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="@string/texttotalKm"
+        android:textSize="15sp" />
+
+    <EditText
+        android:id="@+id/editPreco"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="50dp"
+        android:hint="@string/editPreco"
+        android:inputType="numberDecimal"
+
+
+        />
+
+    <TextView
+        android:id="@+id/totalPreco"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+
+        android:gravity="center"
+        android:text="@string/texttotalPreco"
+        android:textSize="15sp"
+
+        />
+
+    <EditText
+        android:id="@+id/editAutonomia"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="50dp"
+        android:hint="@string/editAutonomia"
+        android:inputType="numberDecimal"
+
+        />
+
+    <TextView
+        android:id="@+id/totalLitro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+
+        android:gravity="center"
+        android:text="@string/texttotalLitro"
+        android:textSize="15sp" />
+
+
+    <TextView
+        android:id="@+id/text_Ans"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="64dp"
+        android:gravity="center"
+        android:text="@string/textAns"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/text_res"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="12dp"
+        android:gravity="center"
+        android:text="@string/textRes"
+        android:textColor="@color/Blue"
+        android:textSize="35sp" />
+
+    <Button
+
+        android:id="@+id/buttonCalculate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/Greenbutton"
+        android:padding="16dp"
+        android:text="@string/buttonCalculate"
+        android:textAllCaps="true"
+        android:textSize="26sp" />
+
+
+</LinearLayout>
